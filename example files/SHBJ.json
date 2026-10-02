@@ -1,0 +1,906 @@
+{
+  "metadata": {
+    "jenis_dokumen": "SHBJ",
+    "nomor_keputusan": "KEPUTUSAN WALI KOTA YOGYAKARTA NOMOR 263 TAHUN 2026",
+    "tahun_anggaran": 2027,
+    "instansi_penerbit": "PEMKOT_YOGYAKARTA"
+  },
+  "items": [
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – SKPD",
+      "satuan": "os",
+      "harga_satuan": 11000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Seremonial",
+      "satuan": "os",
+      "harga_satuan": 25000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Tradisional",
+      "satuan": "pack",
+      "harga_satuan": 150000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Tamu Sekretaris Daerah",
+      "satuan": "os",
+      "harga_satuan": 100000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Tamu Wali Kota",
+      "satuan": "pack",
+      "harga_satuan": 35000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – DPRD",
+      "satuan": "os",
+      "harga_satuan": 20000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Paripurna DPRD",
+      "satuan": "os",
+      "harga_satuan": 30000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Paskibraka",
+      "satuan": "os",
+      "harga_satuan": 12000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Snack – Atlet",
+      "satuan": "os",
+      "harga_satuan": 15000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – SKPD",
+      "satuan": "oh",
+      "harga_satuan": 23000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Paskibraka",
+      "satuan": "oh",
+      "harga_satuan": 25000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Atlet",
+      "satuan": "oh",
+      "harga_satuan": 30000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Harian Sekretaris Daerah",
+      "satuan": "pack",
+      "harga_satuan": 100000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Tamu Wali Kota",
+      "satuan": "pack",
+      "harga_satuan": 275000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – DPRD",
+      "satuan": "oh",
+      "harga_satuan": 30000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Tamu DPRD",
+      "satuan": "os",
+      "harga_satuan": 20000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Paripurna DPRD",
+      "satuan": "os",
+      "harga_satuan": 50000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Sidang Pengadilan",
+      "satuan": "oh",
+      "harga_satuan": 60000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Sidang Panitia Seleksi JPT Pratama",
+      "satuan": "oh",
+      "harga_satuan": 50000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Makan – Rapat - Reses",
+      "satuan": "os",
+      "harga_satuan": 35000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Coffee Morning DPRD",
+      "satuan": "os",
+      "harga_satuan": 35000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Ruang Tunggu – Wali Kota/Wakil Wali Kota",
+      "satuan": "bulan",
+      "harga_satuan": 2000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Ruang Tunggu – Ketua DPRD",
+      "satuan": "bulan",
+      "harga_satuan": 2000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Ruang Tunggu – Wakil Ketua DPRD",
+      "satuan": "bulan",
+      "harga_satuan": 1500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Jamuan Ruang Tunggu – Sekretaris Daerah",
+      "satuan": "bulan",
+      "harga_satuan": 450000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Extra fooding",
+      "satuan": "oh",
+      "harga_satuan": 8000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Pemulihan Balita Stunting/Balita/Ibu Hamil",
+      "satuan": "oh",
+      "harga_satuan": 15000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Pemberian Makanan Tambahan",
+      "satuan": "oh",
+      "harga_satuan": 10000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Tumpeng Lengkap",
+      "satuan": "paket",
+      "harga_satuan": 2000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Tumpeng Lengkap Jajan Pasar",
+      "satuan": "paket",
+      "harga_satuan": 4500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Sesajen Ageng",
+      "satuan": "paket",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Sesajen Alit",
+      "satuan": "paket",
+      "harga_satuan": 1500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat Konsinyering DPRD - Paket Rapat – Halfday",
+      "satuan": "oh",
+      "harga_satuan": 332000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat Konsinyering DPRD - Paket Rapat – Fullday",
+      "satuan": "oh",
+      "harga_satuan": 507000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat Konsinyering DPRD - Paket Rapat – Residence",
+      "satuan": "oh",
+      "harga_satuan": 839000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat Konsinyering DPRD - Paket Rapat – Fullboard",
+      "satuan": "oh",
+      "harga_satuan": 1204000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat – Halfday",
+      "satuan": "oh",
+      "harga_satuan": 125000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat – Fullday",
+      "satuan": "oh",
+      "harga_satuan": 225000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat – Residence",
+      "satuan": "oh",
+      "harga_satuan": 300000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Rapat – Fullboard",
+      "satuan": "oh",
+      "harga_satuan": 750000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Paket Jamuan City Tour",
+      "satuan": "oh",
+      "harga_satuan": 40000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Uang Harian Paket Rapat intensif (konsinyering) DPRD - Halfday",
+      "satuan": "oh",
+      "harga_satuan": 100000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Uang Harian Paket Rapat intensif (konsinyering) DPRD - Fullday",
+      "satuan": "oh",
+      "harga_satuan": 100000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Uang Harian Paket Rapat intensif (konsinyering) DPRD - Residence",
+      "satuan": "oh",
+      "harga_satuan": 140000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "JAMUAN_DAN_RAPAT",
+      "uraian": "Uang Harian Paket Rapat intensif (konsinyering) DPRD - Fullboard",
+      "satuan": "oh",
+      "harga_satuan": 140000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Panitia Penyelenggara",
+      "satuan": "oh",
+      "harga_satuan": 50000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Menteri/Pejabat Setingkat Menteri",
+      "satuan": "oj",
+      "harga_satuan": 1700000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Wali Kota/Wakil Wali Kota",
+      "satuan": "oj",
+      "harga_satuan": 1400000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Pimpinan/Anggota DPRD",
+      "satuan": "oj",
+      "harga_satuan": 1000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Eselon I/Yang Disetarakan",
+      "satuan": "oj",
+      "harga_satuan": 1200000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Eselon II/Yang Disetarakan",
+      "satuan": "oj",
+      "harga_satuan": 1000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Eselon III/Yang Disetarakan",
+      "satuan": "oj",
+      "harga_satuan": 900000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Eselon IV/JFU/Yang Disetarakan",
+      "satuan": "oj",
+      "harga_satuan": 800000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Akademisi S3",
+      "satuan": "oj",
+      "harga_satuan": 1200000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Akademisi S2",
+      "satuan": "oj",
+      "harga_satuan": 1000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Akademisi S1",
+      "satuan": "oj",
+      "harga_satuan": 900000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – Tokoh Masyarakat/Lainnya",
+      "satuan": "oj",
+      "harga_satuan": 500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber - Profesional",
+      "satuan": "oj",
+      "harga_satuan": 1000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Narasumber – KBS Online",
+      "satuan": "oj",
+      "harga_satuan": 150000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Moderator",
+      "satuan": "oh",
+      "harga_satuan": 350000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Pembawa Acara",
+      "satuan": "ok",
+      "harga_satuan": 400000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Pembawa Acara Profesional",
+      "satuan": "ok",
+      "harga_satuan": 750000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Instruktur/Pengajar – Bimtek/Diklat Masyarakat",
+      "satuan": "jpl",
+      "harga_satuan": 500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Instruktur/Pengajar – Bimtek/Diklat Pegawai Pemerintah Kota Yogyakarta – Pakar/Ahli",
+      "satuan": "jpl",
+      "harga_satuan": 850000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Instruktur/Pengajar – Bimtek/Diklat Pegawai Pemerintah Kota Yogyakarta – Widyaiswara",
+      "satuan": "jpl",
+      "harga_satuan": 200000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Instruktur JBM",
+      "satuan": "jpl",
+      "harga_satuan": 40000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Seminar Kit",
+      "satuan": "peserta",
+      "harga_satuan": 20000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Pengarah/Pembina",
+      "satuan": "ob",
+      "harga_satuan": 1500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Penanggungjawab",
+      "satuan": "ob",
+      "harga_satuan": 1250000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Ketua",
+      "satuan": "ob",
+      "harga_satuan": 1000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Wakil Ketua",
+      "satuan": "ob",
+      "harga_satuan": 850000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Sekretaris",
+      "satuan": "ob",
+      "harga_satuan": 750000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "HONORARIUM_KEGIATAN",
+      "uraian": "Honorarium Tim yang Melibatkan Instansi Vertikal – Anggota",
+      "satuan": "ob",
+      "harga_satuan": 750000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Wali Kota",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Fraksi",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 4000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Kelompok Pakar atau Tim Ahli DPRD alat kelengkapan DPRD",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Forum Pemantau Independen",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Tim Ahli Bangunan Gedung - Ahli Pertama",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "AHLI_PRATAMA",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Tim Ahli Bangunan Gedung - Ahli Muda",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "AHLI_MUDA",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 4000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Tim Ahli Bangunan Gedung - Ahli Madya",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "AHLI_MADYA",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Tim Ahli Bangunan Gedung - Ahli Utama",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "AHLI_UTAMA",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 6000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Penilai Analisis Mengenai Dampak Lingkungan Hidup",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Cagar Budaya - Ahli Pertama",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "AHLI_PRATAMA",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Pendukung TACB",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "TIDAK_DIBATASI",
+        "tingkat_keahlian": "NON_KUALIFIKASI",
+        "pengalaman_minimal_tahun": 0,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 2000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Tempat Outdoor",
+      "satuan": "hari",
+      "harga_satuan": 4500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Tempat Indoor – Kategori 1",
+      "satuan": "hari",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Tempat Indoor – Kategori 2",
+      "satuan": "hari",
+      "harga_satuan": 2500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Tempat Indoor – Kategori 3",
+      "satuan": "hari",
+      "harga_satuan": 20000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Kendaraan – Bus",
+      "satuan": "hari",
+      "harga_satuan": 3600000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Kendaraan – Micro Bus",
+      "satuan": "hari",
+      "harga_satuan": 1800000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Kendaraan – Mobil – Fullday (24 jam)",
+      "satuan": "hari",
+      "harga_satuan": 650000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Kendaraan – Mobil – Halfday (12 jam)",
+      "satuan": "ok",
+      "harga_satuan": 500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "OPERASIONAL_SEWA",
+      "uraian": "Sewa Kendaraan – Mobil Toilet",
+      "satuan": "unit",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Dokumentasi/Pembuatan Video",
+      "satuan": "paket",
+      "harga_satuan": 2000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Pembuatan Video Profil",
+      "satuan": "paket",
+      "harga_satuan": 25000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Pembuatan Video Tapping/ Materi Multimedia/Produksi ILM",
+      "satuan": "paket",
+      "harga_satuan": 15000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Pembuatan Motion Grafis",
+      "satuan": "paket",
+      "harga_satuan": 30000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Dokumentasi Foto",
+      "satuan": "paket",
+      "harga_satuan": 500000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Dokumentasi dalam Bentuk Dokumenter",
+      "satuan": "paket",
+      "harga_satuan": 7000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_NON_PERSONIL",
+      "uraian": "Dokumentasi dalam Bentuk Grafik",
+      "satuan": "paket",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Non Konstruksi Ahli Pratama (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_PRATAMA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "TIDAK_DIBATASI"
+      },
+      "satuan": "ob",
+      "harga_satuan": 3000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Non Konstruksi Ahli Muda (S1, 5 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MUDA",
+        "pengalaman_minimal_tahun": 5,
+        "jenis_penyedia": "TIDAK_DIBATASI"
+      },
+      "satuan": "ob",
+      "harga_satuan": 5000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Non Konstruksi Ahli Madya (S1, 9 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MADYA",
+        "pengalaman_minimal_tahun": 9,
+        "jenis_penyedia": "TIDAK_DIBATASI"
+      },
+      "satuan": "ob",
+      "harga_satuan": 7000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Non Konstruksi Ahli Utama (S1, 13 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_UTAMA",
+        "pengalaman_minimal_tahun": 13,
+        "jenis_penyedia": "TIDAK_DIBATASI"
+      },
+      "satuan": "ob",
+      "harga_satuan": 9000000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Muda – Badan Usaha (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MUDA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "BADAN_USAHA"
+      },
+      "satuan": "ob",
+      "harga_satuan": 15210000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Madya – Badan Usaha (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MADYA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "BADAN_USAHA"
+      },
+      "satuan": "ob",
+      "harga_satuan": 17745000,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Utama – Badan Usaha (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_UTAMA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "BADAN_USAHA"
+      },
+      "satuan": "ob",
+      "harga_satuan": 21547500,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Muda – Perorangan (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MUDA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 8365500,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Madya – Perorangan (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_MADYA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 9759750,
+      "is_plafon_maksimal": true
+    },
+    {
+      "kategori_biaya": "BIAYA_PERSONIL_KONSULTANSI",
+      "uraian": "Tenaga Ahli Konsultansi Konstruksi Ahli Utama – Perorangan (S1, 1 Tahun)",
+      "kualifikasi_ahli": {
+        "tingkat_pendidikan": "S1",
+        "tingkat_keahlian": "AHLI_UTAMA",
+        "pengalaman_minimal_tahun": 1,
+        "jenis_penyedia": "PERORANGAN"
+      },
+      "satuan": "ob",
+      "harga_satuan": 11851125,
+      "is_plafon_maksimal": true
+    }
+  ]
+}
