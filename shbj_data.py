@@ -59,6 +59,8 @@ class SHBJData:
     """Representasi data terstruktur SHBJ dari JSON."""
     metadata: dict[str, Any] = field(default_factory=dict)
     items: list[dict[str, Any]] = field(default_factory=list)
+    is_markdown_fallback: bool = False
+    markdown_content: str = ""
 
     def get_items_for_type(self, activity_type: str) -> list[dict[str, Any]]:
         """Ambil item SHBJ yang relevan untuk tipe kegiatan tertentu.
@@ -92,6 +94,9 @@ class SHBJData:
         Returns:
             String berisi data tarif SHBJ yang siap diinjeksi.
         """
+        if self.is_markdown_fallback:
+            return f"=== DATA TARIF SHBJ (FALLBACK MARKDOWN) ===\n{self.markdown_content[:max_chars]}\n=== AKHIR DATA TARIF SHBJ ==="
+            
         items = self.get_items_for_type(activity_type)
         if not items:
             return ""
@@ -167,6 +172,14 @@ def parse_shbj_file(filepath: str | None = None) -> SHBJData:
     data = SHBJData()
     
     if not os.path.exists(filepath):
+        md_path = filepath.replace(".json", ".md")
+        if os.path.exists(md_path):
+            print(f"⚠️ Peringatan: File {os.path.basename(filepath)} tidak ditemukan. Melakukan fallback ke {os.path.basename(md_path)}.")
+            with open(md_path, "r", encoding="utf-8") as f:
+                data.is_markdown_fallback = True
+                data.markdown_content = f.read()
+            return data
+            
         print(f"⚠️ Peringatan: File {filepath} tidak ditemukan. Menggunakan data kosong.")
         return data
 
@@ -233,7 +246,11 @@ def load_shbj(filepath: str | None = None) -> SHBJData:
     try:
         current_mtime = os.path.getmtime(path)
     except FileNotFoundError:
-        current_mtime = 0.0
+        md_path = path.replace(".json", ".md")
+        try:
+            current_mtime = os.path.getmtime(md_path)
+        except FileNotFoundError:
+            current_mtime = 0.0
 
     # Reload jika cache kosong atau file sudah diubah sejak parse terakhir
     if _cached_data is None or current_mtime > _last_mtime:

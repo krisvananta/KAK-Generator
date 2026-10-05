@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "judul_pekerjaan": "Belanja Jasa Konsultansi Penyusunan Baseline PAD",
+    "tipe_kegiatan": "B",
+    "deskripsi_tipe": "Jasa Konsultansi",
+    "tahun_anggaran": 2026,
+    "tanggal_penyusunan": "2024-07-15"
+  },
+  "kak": {
+    "latar_belakang": "Pendapatan Asli Daerah (PAD) merupakan salah satu pilar utama pembiayaan pembangunan daerah guna mewujudkan kemandirian fiskal Kota Yogyakarta. Selama ini, proses formulasi dan penetapan target penerimaan PAD cenderung menggunakan pendekatan historis (incremental budgeting), yaitu menetapkan target berdasarkan realisasi tahun sebelumnya ditambah dengan persentase kenaikan tertentu. Metode ini memiliki keterbatasan karena berpotensi menimbulkan deviasi yang cukup lebar, baik berupa penetapan target yang terlalu tinggi (over-target) maupun tidak terpetakannya potensi riil yang sesungguhnya (under-target). Lahirnya Undang-Undang Nomor 1 Tahun 2022 tentang Hubungan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah (UU HKPD) menuntut restrukturisasi dan penguatan tata kelola pemungutan pajak dan retribusi daerah. Pemerintah Kota Yogyakarta dituntut untuk melakukan pemetaan potensi secara ilmiah, akurat, dan akuntabel. Oleh karena itu, diperlukan sebuah kajian komprehensif untuk menyusun Baseline PAD dengan menggunakan pendekatan mikro (bottom-up). Kajian ini akan memanfaatkan data administratif internal dan integrasi sistem yang ada tanpa melakukan survei primer langsung ke wajib pajak.",
+    "maksud": "Menyusun baseline data mikro yang valid untuk merumuskan kebijakan intensifikasi dan ekstensifikasi PAD secara presisi, objektif, dan dapat dipertanggungjawabkan.",
+    "tujuan": [
+      "Memetakan potensi riil objek pajak dan retribusi daerah di Kota Yogyakarta berbasis data mikro administratif yang tersedia pada sistem informasi pemerintah daerah.",
+      "Menyusun formula dan model perhitungan estimasi target PAD yang presisi guna mendukung penyusunan dokumen perencanaan anggaran (APBD).",
+      "Merumuskan rekomendasi strategi taktis (policy brief) bagi BPKAD Kota Yogyakarta dalam mengoptimalkan pemungutan dan meminimalkan kebocoran penerimaan daerah."
+    ],
+    "sasaran": [
+      "Tersedianya dokumen kajian Baseline PAD Kota Yogyakarta dan model perhitungan berbasis data mikro."
+    ],
+    "lokasi_kegiatan": "Kota Yogyakarta",
+    "sumber_pendanaan": {
+      "sumber": "APBD",
+      "pagu_anggaran": 100000000,
+      "termasuk_ppn": true,
+      "ppn_persen": 11
+    },
+    "ruang_lingkup": [
+      "Identifikasi dan penarikan data mikro administratif dari sistem informasi BPKAD dan OPD pemungut.",
+      "Pengolahan data, pembersihan data, dan pemodelan potensi berbasis data mikro.",
+      "Penyusunan formula perhitungan estimasi target PAD.",
+      "Penyusunan rekomendasi kebijakan dan policy brief."
+    ],
+    "output_keluaran": [
+      "Laporan Pendahuluan",
+      "Laporan Antara",
+      "Laporan Akhir",
+      "Executive Summary (Ringkasan Eksekutif)",
+      "Alat Bantu Perhitungan (Spreadsheet Model)"
+    ],
+    "waktu_pelaksanaan": {
+      "durasi_hari": 90,
+      "tanggal_mulai": "2024-08-01",
+      "tanggal_selesai": "2024-10-29",
+      "lokasi": "Kota Yogyakarta"
+    },
+    "metodologi": "Desk study, integrasi data sekunder dari sistem informasi BPKAD dan OPD pemungut. Analisis kuantitatif deskriptif, pemodelan potensi berbasis data mikro, dan analisis gap antara potensi riil dengan realisasi administratif. Pembahasan dilakukan melalui Focus Group Discussion (FGD) berkala pada setiap tahapan pelaporan.",
+    "peserta": {
+      "deskripsi": "Bidang Pengembangan BPKAD Kota Yogyakarta dan OPD teknis pemungut di lingkungan Pemerintah Kota Yogyakarta.",
+      "jumlah": 20,
+      "rincian": [
+        "Bidang Pengembangan BPKAD Kota Yogyakarta",
+        "OPD Teknis Pemungut Retribusi"
+      ]
+    },
+    "narasumber": null,
+    "kebutuhan_personil": [
+      {
+        "posisi": "Team Leader / Ahli Keuangan Daerah",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S2 Ekonomi/Manajemen Keuangan/Kebijakan Publik",
+        "pengalaman_tahun": 3
+      },
+      {
+        "posisi": "Tenaga Ahli Statistik / Analis Data",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S1 Statistika/Matematika",
+        "pengalaman_tahun": 3
+      },
+      {
+        "posisi": "Asisten Peneliti / Pengolah Data",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S1 Ekonomi/Statistika/Komputer",
+        "pengalaman_tahun": 1
+      }
+    ],
+    "jadwal_pelaksanaan": [
+      {
+        "tahapan": "Kick-off Meeting, Pengumpulan Data Mikro, Penyusunan Laporan Pendahuluan",
+        "durasi_atau_hari_ke": "Hari ke-1 sampai ke-30"
+      },
+      {
+        "tahapan": "Pengolahan Data, Pemodelan Potensi, FGD Laporan Antara",
+        "durasi_atau_hari_ke": "Hari ke-31 sampai ke-60"
+      },
+      {
+        "tahapan": "Formulasi Model Perhitungan, Penyusunan Rekomendasi, Expose Laporan Akhir",
+        "durasi_atau_hari_ke": "Hari ke-61 sampai ke-90"
+      }
+    ],
+    "spesifikasi_teknis": null
+  },
+  "hps": {
+    "biaya_personil": [
+      {
+        "uraian": "Team Leader / Ahli Keuangan Daerah (S2)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 6000000,
+        "jumlah": 18000000,
+        "kualifikasi": "S2 Ekonomi/Manajemen Keuangan/Kebijakan Publik"
+      },
+      {
+        "uraian": "Tenaga Ahli Statistik / Analis Data (S1)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 4500000,
+        "jumlah": 13500000,
+        "kualifikasi": "S1 Statistika/Matematika"
+      },
+      {
+        "uraian": "Asisten Peneliti / Pengolah Data (S1)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 3000000,
+        "jumlah": 9000000,
+        "kualifikasi": "S1 Ekonomi/Statistika/Komputer"
+      }
+    ],
+    "biaya_non_personil": [
+      {
+        "uraian": "FGD & Rapat Pembahasan (3 kali @ 20 orang)",
+        "volume": 60,
+        "satuan_waktu": 1,
+        "satuan": "ok",
+        "harga_satuan": 70000,
+        "jumlah": 4200000
+      },
+      {
+        "uraian": "Penggandaan & Penjilidan Laporan",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 4500000,
+        "jumlah": 4500000
+      },
+      {
+        "uraian": "Alat Tulis Kantor (ATK) & Bahan Habis Pakai",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 2500000,
+        "jumlah": 2500000
+      },
+      {
+        "uraian": "Media Penyimpanan Data (Flashdisk/Harddisk)",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 1500000,
+        "jumlah": 1500000
+      },
+      {
+        "uraian": "Biaya Komunikasi & Operasional Tim",
+        "volume": 3,
+        "satuan_waktu": 1,
+        "satuan": "bulan",
+        "harga_satuan": 1500000,
+        "jumlah": 4500000
+      }
+    ],
+    "subtotal": 57700000,
+    "ppn": 6347000,
+    "total": 64047000
+  }
+}
