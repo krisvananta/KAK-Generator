@@ -120,11 +120,11 @@ def extract_json_from_file(client, filepath: str) -> dict:
                     # Exponential backoff
                     wait_time = base_wait_time * (2 ** attempt) 
                     
-                    # Jika semua model sudah habis dan tetap kena 429, wajib tunggu minimal 60 detik
+                    # Jika semua model sudah habis dan tetap kena 429
                     if "429" in error_str:
-                        wait_time = max(wait_time, 65)
+                        wait_time = max(wait_time, 35) # Minimal 35 detik
                         
-                    wait_time = min(wait_time, 120)  # Maksimal tunggu 2 menit per attempt
+                    wait_time = min(wait_time, 40)  # Maksimal tunggu 40 detik per attempt
                     
                     kode_error = "429 (Semua Jalur Model Penuh)" if "429" in error_str else "503 (Server Sibuk)"
                     print(f"   ⚠️ {kode_error}. Menunggu {wait_time} detik... (Percobaan {attempt+2}/{max_retries})")

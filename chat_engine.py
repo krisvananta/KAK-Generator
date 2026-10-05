@@ -93,8 +93,8 @@ class KAKInterviewBot:
                     if attempt < max_retries - 1:
                         wait_time = base_wait_time * (2 ** attempt) 
                         if "429" in error_str:
-                            wait_time = max(wait_time, 65)
-                        wait_time = min(wait_time, 120)  # Maksimal tunggu 2 menit per attempt
+                            wait_time = max(wait_time, 35) # Minimal 35 detik untuk 429
+                        wait_time = min(wait_time, 40)  # Maksimal tunggu 40 detik per attempt
                         
                         kode_error = "429 (Semua Jalur Model Penuh)" if "429" in error_str else "503 (Server Sibuk)"
                         print(f"\n   ⚠️ {kode_error}. Menunggu {wait_time} detik... (Percobaan {attempt+2}/{max_retries})")
