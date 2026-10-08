@@ -102,13 +102,18 @@ def extract_and_save_json(bot: KAKInterviewBot) -> None:
     print("=" * 64)
     print("⏳ Memproses seluruh percakapan menjadi JSON terstruktur...\n")
 
-    data = bot.extract_structured_json()
+    data = None
+    while data is None:
+        data = bot.extract_structured_json()
 
-    if data is None:
-        print("⚠️  Gagal mengekstrak JSON dari percakapan.")
-        print("    Dokumen KAK teks sudah tersedia di atas.")
-        print("    Anda bisa copy-paste secara manual.\n")
-        return
+        if data is None:
+            print("\n⚠️  Gagal mengekstrak JSON dari percakapan (Server penuh atau limit API tercapai).")
+            pilihan = input("🔄 Tekan 'R' lalu Enter untuk MENCOBA LAGI, atau tombol lain untuk KELUAR: ").strip().lower()
+            if pilihan != 'r':
+                print("\n    Dokumen KAK teks sudah tersedia di atas.")
+                print("    Anda bisa copy-paste secara manual.\n")
+                return
+            print("\n⏳ Mencoba mengekstrak ulang JSON...")
 
     # Simpan ke file JSON
     filepath = save_json_output(data)
@@ -116,42 +121,78 @@ def extract_and_save_json(bot: KAKInterviewBot) -> None:
     print(f"✅ Data JSON berhasil disimpan!")
     print(f"   📄 File JSON: {filepath}")
 
-    # Buat Dokumen PDF Final KAK
+    generate_documents(filepath)
+
+
+def generate_documents(filepath: str) -> None:
+    """Membaca file JSON lalu merender PDF KAK dan Excel HPS."""
+    import json
+    
+    # Baca ringkasan data dulu
     try:
-        from document_builder import generate_markdown_from_json, generate_pdf_from_markdown
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"❌ Error membaca file JSON: {e}")
+        return
         
-        # Ekstrak data dan buat markdown di memori (tidak disimpan ke file)
-        md_text, base_filepath = generate_markdown_from_json(filepath)
+    print("\n" + "=" * 64)
+    print("🖨️  MEMBUAT DOKUMEN FINAL...")
+    print("=" * 64)
+    print(f"Menggunakan data dari: {filepath}\n")
+
+    # Buat Dokumen PDF Final KAK dan Excel HPS
+    try:
+        from document_builder import generate_html_from_json, generate_pdf_from_html
+        from hps_builder import generate_hps_excel
         
-        # Buat PDF
-        pdf_filepath = generate_pdf_from_markdown(md_text, base_filepath)
+        # 1. Ekstrak data KAK dan buat HTML di memori (tidak disimpan ke file)
+        html_text, base_filepath = generate_html_from_json(filepath)
+        
+        # Folder arsip spesifik sesi ini
+        import os
+        arsip_dir = os.path.dirname(base_filepath)
+        
+        # 2. Buat PDF KAK
+        pdf_filepath = generate_pdf_from_html(html_text, base_filepath)
+        
+        # 3. Buat Excel HPS (masukkan ke folder arsip_dir yang sama)
+        excel_filepath = generate_hps_excel(filepath, output_dir=arsip_dir)
         
         if pdf_filepath:
             print(f"   📑 File KAK Final (PDF)     : {pdf_filepath}")
+        if excel_filepath:
+            print(f"   📊 File HPS/RAB (Excel)     : {excel_filepath}")
             
-            # Buka otomatis file PDF-nya
+        # Buka otomatis file PDF dan Excel
+        if pdf_filepath or excel_filepath:
             import os, sys
-            print("   (Membuka file PDF secara otomatis...)")
+            print("   (Membuka file dokumen secara otomatis...)")
             try:
                 if sys.platform == "win32":
-                    os.startfile(pdf_filepath)
+                    if pdf_filepath: os.startfile(pdf_filepath)
+                    if excel_filepath: os.startfile(excel_filepath)
                 elif sys.platform == "darwin":
                     import subprocess
-                    subprocess.call(["open", pdf_filepath])
+                    if pdf_filepath: subprocess.call(["open", pdf_filepath])
+                    if excel_filepath: subprocess.call(["open", excel_filepath])
                 else:
                     import subprocess
-                    subprocess.call(["xdg-open", pdf_filepath])
+                    if pdf_filepath: subprocess.call(["xdg-open", pdf_filepath])
+                    if excel_filepath: subprocess.call(["xdg-open", excel_filepath])
             except Exception as e:
                 print(f"   ⚠️ Gagal membuka PDF otomatis: {e}")
                 
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         print(f"   ⚠️ Gagal membuat dokumen akhir: {e}\n")
 
     # Tampilkan ringkasan
     metadata = data.get("metadata", {})
     hps = data.get("hps", {})
 
-    print("--- Ringkasan ---")
+    print("\n--- Ringkasan ---")
     print(f"   Judul  : {metadata.get('judul_pekerjaan', '-')}")
     print(f"   Tipe   : {metadata.get('tipe_kegiatan', '-')} — {metadata.get('deskripsi_tipe', '-')}")
 
@@ -168,13 +209,27 @@ def extract_and_save_json(bot: KAKInterviewBot) -> None:
 
 def main() -> None:
     """Entry point utama aplikasi."""
+    import os
+    import sys
     # Fix encoding untuk Windows terminal (emoji support)
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-    print_banner()
+    # Jika ada argumen (path file json), langsung render dokumen
+    if len(sys.argv) > 1:
+        json_path = sys.argv[1]
+        print_banner()
+        if not os.path.exists(json_path):
+            print(f"❌ File tidak ditemukan: {json_path}")
+        else:
+            generate_documents(json_path)
+        print("\n" + "=" * 64)
+        print("Selesai! Terima kasih telah menggunakan KAK Generator.")
+        print("=" * 64)
+        return
 
-    print("⏳ Menginisialisasi bot & memuat data SHBJ...\n")
+    print_banner()
+    print("\n⏳ Menginisialisasi bot & memuat data SHBJ...\n")
     bot = KAKInterviewBot(system_instruction=SYSTEM_INSTRUCTION)
 
     interview_completed = run_interview(bot)

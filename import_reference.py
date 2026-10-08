@@ -79,12 +79,18 @@ def extract_json_from_file(client, filepath: str) -> dict:
     uploaded_file = client.files.upload(file=filepath)
     
     # Retry agresif untuk melawan 503 dan 429
-    max_retries = 10
-    base_wait_time = 5
+    max_retries = 20
+    model_attempts = 0
     result_json = {"metadata": {}, "items": []}
     
-    # Jalur model cadangan untuk menghindari Limit Kuota (429)
-    fallback_models = [MODEL_NAME, "gemini-3.7-flash", "gemini-3.5-flash", "gemini-flash-lite-latest"]
+    # Jalur model cadangan untuk menghindari Limit Kuota (429) dan Server Sibuk (503)
+    fallback_models = [
+        MODEL_NAME, 
+        "gemini-3.7-flash", 
+        "gemini-3.5-flash", 
+        "gemini-2.5-flash",
+        "gemini-flash-lite-latest"
+    ]
     current_model_idx = 0
     
     for attempt in range(max_retries):
@@ -106,28 +112,41 @@ def extract_json_from_file(client, filepath: str) -> dict:
         except Exception as e:
             error_str = str(e)
             
-            # Khusus untuk 429 (Limit) atau 404 (Model tidak ada): Coba ganti model terlebih dahulu
-            if ("429" in error_str or "404" in error_str) and current_model_idx < len(fallback_models) - 1:
-                current_model_idx += 1
-                next_model = fallback_models[current_model_idx]
-                alasan = "Limit Kuota (429)" if "429" in error_str else "Model tidak tersedia (404)"
-                print(f"   ⚠️ {alasan} pada {current_model}. Mengalihkan ke {next_model}...")
-                time.sleep(2)
-                continue # Lanjut ke percobaan berikutnya menggunakan model baru
-                
+            error_type = ""
+            is_transient = False
+            if "429" in error_str: 
+                error_type = "Limit Kuota (429)"
+                is_transient = False # Langsung fallback jika limit kuota, tidak usah ditunggu
+            elif "503" in error_str: 
+                error_type = "Server Sibuk (503)"
+                is_transient = True
+            elif "404" in error_str: 
+                error_type = "Model tidak tersedia (404)"
+                is_transient = False
+            
+            if error_type:
+                # Jika error sementara (429/503), coba ulang di model yang sama 3x (5s, 10s, 15s)
+                if is_transient:
+                    model_attempts += 1
+                    if model_attempts <= 3:
+                        wait_time = 5 * model_attempts
+                        print(f"   ⚠️ {error_type}. Menunggu {wait_time} detik untuk coba lagi... (Percobaan {model_attempts}/3 pada model ini)")
+                        time.sleep(wait_time)
+                        continue
+                        
+                # Jika 404 (permanen) atau sudah 3x gagal di model ini, turun kasta
+                if current_model_idx < len(fallback_models) - 1:
+                    current_model_idx += 1
+                    next_model = fallback_models[current_model_idx]
+                    model_attempts = 0 # Reset untuk model baru
+                    print(f"   ⚠️ {error_type} persisten pada {current_model}. Mengalihkan ke {next_model}...")
+                    time.sleep(2)
+                    continue
+                    
             if "503" in error_str or "429" in error_str:
                 if attempt < max_retries - 1:
-                    # Exponential backoff
-                    wait_time = base_wait_time * (2 ** attempt) 
-                    
-                    # Jika semua model sudah habis dan tetap kena 429
-                    if "429" in error_str:
-                        wait_time = max(wait_time, 35) # Minimal 35 detik
-                        
-                    wait_time = min(wait_time, 40)  # Maksimal tunggu 40 detik per attempt
-                    
-                    kode_error = "429 (Semua Jalur Model Penuh)" if "429" in error_str else "503 (Server Sibuk)"
-                    print(f"   ⚠️ {kode_error}. Menunggu {wait_time} detik... (Percobaan {attempt+2}/{max_retries})")
+                    wait_time = 35 if "429" in error_str else 20
+                    print(f"   ⚠️ Semua Jalur Model Penuh. Menunggu {wait_time} detik... (Sisa retries: {max_retries - attempt - 1})")
                     time.sleep(wait_time)
                 else:
                     print(f"   ❌ Gagal memproses chunk {os.path.basename(filepath)} setelah {max_retries} percobaan.")

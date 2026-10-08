@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "judul_pekerjaan": "Belanja Jasa Konsultansi Penyusunan Baseline PAD Kota Yogyakarta (Fokus Sektor Pajak Hotel)",
+    "tipe_kegiatan": "B",
+    "deskripsi_tipe": "Jasa Konsultansi",
+    "tahun_anggaran": 2027,
+    "tanggal_penyusunan": "2027-01-01"
+  },
+  "kak": {
+    "latar_belakang": "Pendapatan Asli Daerah (PAD) merupakan salah satu pilar utama pembiayaan pembangunan daerah guna mewujudkan kemandirian fiskal Kota Yogyakarta. Sebagai kota pariwisata dan kebudayaan terkemuka, sektor Pajak Hotel memberikan kontribusi yang sangat signifikan terhadap total penerimaan PAD. Namun demikian, penentuan target PAD selama ini masih sering didasarkan pada metode proyeksi makro (tren historis) tanpa didukung oleh data potensi riil di tingkat mikro (objek pajak). Ketiadaan data baseline yang mutakhir dan akurat berpotensi menimbulkan kesenjangan (gap) antara realisasi penerimaan dengan potensi riil di lapangan, serta menyulitkan optimalisasi penagihan dan pengawasan kepatuhan Wajib Pajak. Oleh karena itu, diperlukan sebuah kajian ilmiah yang komprehensif dengan pendekatan mikro untuk mendeteksi, memetakan, dan menghitung potensi riil Pajak Hotel di Kota Yogyakarta.",
+    "maksud": "Mendeteksi, memetakan, dan menghitung potensi riil Pajak Hotel di Kota Yogyakarta menggunakan pendekatan mikro berbasis data lapangan yang valid dan akuntabel.",
+    "tujuan": [
+      "Melakukan verifikasi, validasi, dan pemetaan lapangan (sensus/survey) terhadap objek Pajak Hotel di wilayah Kota Yogyakarta secara langsung.",
+      "Menganalisis selisih (gap) antara volume usaha/pajak yang dilaporkan secara mandiri (self-assessment) oleh Wajib Pajak dengan potensi riil hasil perhitungan lapangan.",
+      "Menyusun dokumen baseline potensi PAD sektor Pajak Hotel yang mutakhir, akurat, dan akuntabel sebagai instrumen perencanaan target pendapatan daerah."
+    ],
+    "sasaran": [
+      "Bidang Pengembangan BPKAD Kota Yogyakarta",
+      "Pemerintah Kota Yogyakarta"
+    ],
+    "lokasi_kegiatan": "Kota Yogyakarta",
+    "sumber_pendanaan": {
+      "sumber": "APBD",
+      "pagu_anggaran": 100000000,
+      "termasuk_ppn": true,
+      "ppn_persen": 11
+    },
+    "ruang_lingkup": [
+      "Persiapan administrasi dan penyusunan instrumen survey",
+      "Survey lapangan dan sensus objek Pajak Hotel di Kota Yogyakarta",
+      "Pengolahan data, analisis potensi mikro, dan analisis gap",
+      "Pelaksanaan FGD pembahasan draf kajian",
+      "Penyusunan dokumen Laporan Akhir Kajian Baseline PAD"
+    ],
+    "output_keluaran": [
+      "Dokumen Laporan Akhir Kajian Baseline PAD (Sektor Pajak Hotel) Kota Yogyakarta"
+    ],
+    "waktu_pelaksanaan": {
+      "durasi_hari": 90,
+      "tanggal_mulai": "2027-08-01",
+      "tanggal_selesai": "2027-10-29",
+      "lokasi": "Kota Yogyakarta"
+    },
+    "metodologi": "Pekerjaan dilaksanakan secara kontraktual oleh Penyedia Jasa Konsultansi melalui tahapan persiapan (metodologi dan instrumen), pelaksanaan survey lapangan (sensus/sampling objek pajak hotel), pengolahan dan analisis data mikro (perhitungan potensi dan analisis gap), pelaksanaan FGD pembahasan draf laporan bersama stakeholder, serta penyusunan laporan akhir.",
+    "peserta": {
+      "deskripsi": "FGD Pembahasan Draft Kajian dihadiri oleh perwakilan BPKAD Kota Yogyakarta dan OPD terkait.",
+      "jumlah": 30,
+      "rincian": [
+        "Bidang Pengembangan BPKAD Kota Yogyakarta",
+        "OPD Pengampu PAD terkait"
+      ]
+    },
+    "narasumber": [
+      {
+        "nama_atau_posisi": "Narasumber Ahli (Akademisi S2)",
+        "instansi": "Perguruan Tinggi / Profesional",
+        "materi": "Metodologi Perhitungan Potensi Pajak Daerah dan Kebijakan Peningkatan PAD"
+      },
+      {
+        "nama_atau_posisi": "Moderator",
+        "instansi": "Internal/Eksternal",
+        "materi": "Pemandu diskusi FGD"
+      }
+    ],
+    "kebutuhan_personil": [
+      {
+        "posisi": "Team Leader",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S2 Ekonomi/Akuntansi/Perpajakan",
+        "pengalaman_tahun": 3
+      },
+      {
+        "posisi": "Ahli Pengolah Data / Statistik",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S1 Statistik/Matematika/Ekonomi",
+        "pengalaman_tahun": 3
+      },
+      {
+        "posisi": "Asisten Ahli",
+        "jumlah": 1,
+        "kualifikasi_pendidikan": "S1 Ekonomi/Manajemen/Perpajakan",
+        "pengalaman_tahun": 1
+      },
+      {
+        "posisi": "Surveyor Lapangan",
+        "jumlah": 4,
+        "kualifikasi_pendidikan": "D3/S1 Semua Jurusan",
+        "pengalaman_tahun": 1
+      }
+    ],
+    "jadwal_pelaksanaan": [
+      {
+        "tahapan": "Tahap Persiapan & Metodologi",
+        "durasi_atau_hari_ke": "Minggu 1 - Minggu 2"
+      },
+      {
+        "tahapan": "Survey Lapangan (Pajak Hotel)",
+        "durasi_atau_hari_ke": "Minggu 3 - Minggu 6"
+      },
+      {
+        "tahapan": "Pengolahan & Analisis Data",
+        "durasi_atau_hari_ke": "Minggu 7 - Minggu 9"
+      },
+      {
+        "tahapan": "FGD Pembahasan Draft Kajian",
+        "durasi_atau_hari_ke": "Minggu 10"
+      },
+      {
+        "tahapan": "Penyusunan & Penyerahan Laporan Akhir",
+        "durasi_atau_hari_ke": "Minggu 11 - Minggu 12"
+      }
+    ],
+    "spesifikasi_teknis": [
+      "Laporan Pendahuluan (5 eksemplar)",
+      "Laporan Antara (5 eksemplar)",
+      "Laporan Akhir (5 eksemplar)"
+    ]
+  },
+  "hps": {
+    "biaya_personil": [
+      {
+        "uraian": "Team Leader (S2 Ekonomi/Pajak)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 6500000,
+        "jumlah": 19500000,
+        "kualifikasi": "S2, Pengalaman 3 Tahun"
+      },
+      {
+        "uraian": "Ahli Pengolah Data (S1)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 4500000,
+        "jumlah": 13500000,
+        "kualifikasi": "S1, Pengalaman 3 Tahun"
+      },
+      {
+        "uraian": "Asisten Ahli (S1)",
+        "volume": 1,
+        "satuan_waktu": 3,
+        "satuan": "ob",
+        "harga_satuan": 4000000,
+        "jumlah": 12000000,
+        "kualifikasi": "S1, Pengalaman 0-3 Tahun"
+      },
+      {
+        "uraian": "Surveyor Lapangan",
+        "volume": 4,
+        "satuan_waktu": 1,
+        "satuan": "ob",
+        "harga_satuan": 3000000,
+        "jumlah": 12000000,
+        "kualifikasi": "D3/S1"
+      }
+    ],
+    "biaya_non_personil": [
+      {
+        "uraian": "Sewa Mobil Operasional Survey",
+        "volume": 1,
+        "satuan_waktu": 10,
+        "satuan": "hari",
+        "harga_satuan": 650000,
+        "jumlah": 6500000
+      },
+      {
+        "uraian": "Jamuan Makan FGD (SKPD)",
+        "volume": 30,
+        "satuan_waktu": 1,
+        "satuan": "porsi",
+        "harga_satuan": 23000,
+        "jumlah": 690000
+      },
+      {
+        "uraian": "Jamuan Snack FGD (SKPD)",
+        "volume": 30,
+        "satuan_waktu": 1,
+        "satuan": "porsi",
+        "harga_satuan": 11000,
+        "jumlah": 330000
+      },
+      {
+        "uraian": "Honorarium Narasumber (S2)",
+        "volume": 1,
+        "satuan_waktu": 2,
+        "satuan": "jam",
+        "harga_satuan": 1000000,
+        "jumlah": 2000000
+      },
+      {
+        "uraian": "Honorarium Moderator",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "orang",
+        "harga_satuan": 350000,
+        "jumlah": 350000
+      },
+      {
+        "uraian": "Seminar Kit Peserta",
+        "volume": 30,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 20000,
+        "jumlah": 600000
+      },
+      {
+        "uraian": "Dokumentasi Foto",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 500000,
+        "jumlah": 500000
+      },
+      {
+        "uraian": "Penggandaan Laporan & ATK",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 5000000,
+        "jumlah": 5000000
+      },
+      {
+        "uraian": "Operasional Kantor & Komunikasi",
+        "volume": 1,
+        "satuan_waktu": 1,
+        "satuan": "paket",
+        "harga_satuan": 17120090,
+        "jumlah": 17120090
+      }
+    ],
+    "subtotal": 90090090,
+    "ppn": 9909910,
+    "total": 100000000
+  }
+}

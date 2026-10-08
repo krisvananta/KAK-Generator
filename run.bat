@@ -38,13 +38,15 @@ echo   MENU UTAMA
 echo ============================================================
 echo [1] Jalankan KAK Generator (Wawancara)
 echo [2] Update Data SHBJ (Import dari PDF / Excel)
-echo [3] Keluar
+echo [3] Generate PDF KAK ^& Excel HPS dari File JSON
+echo [4] Keluar
 echo ============================================================
-set /p pilihan="Pilih menu [1/2/3]: "
+set /p pilihan="Pilih menu [1/2/3/4]: "
 
 if "%pilihan%"=="1" goto run_bot
 if "%pilihan%"=="2" goto import_shbj
-if "%pilihan%"=="3" goto end
+if "%pilihan%"=="3" goto render_json
+if "%pilihan%"=="4" goto end
 echo Pilihan tidak valid!
 goto menu
 
@@ -71,6 +73,24 @@ set filepath=%filepath:"=%
 
 echo.
 python "%~dp0import_reference.py" "%filepath%"
+echo.
+pause
+goto menu
+
+:render_json
+echo.
+echo ============================================================
+echo   GENERATE PDF ^& EXCEL DARI JSON
+echo ============================================================
+echo Seret dan lepas file JSON (dari folder output) ke jendela ini,
+echo atau ketikkan path lengkap filenya.
+set /p filepath="Path file JSON: "
+
+REM Hapus tanda kutip jika ada
+set filepath=%filepath:"=%
+
+echo.
+python "%~dp0kak_wizard_cli.py" "%filepath%"
 echo.
 pause
 goto menu
